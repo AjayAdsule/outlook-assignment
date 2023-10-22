@@ -1,0 +1,19 @@
+.side-card{
+
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-card{
+    width: 25%;
+    
+  }
+  .right-card{
+    width: 75%;
+
+  }
+
+  .card-botton{
+    margin-top: 8px;
+  }

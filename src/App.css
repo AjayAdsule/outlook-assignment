@@ -1,0 +1,124 @@
+.card{
+  height: 100px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  background: #fffefe;
+}
+.icon{
+  width: 7%;
+
+}
+.card-inner{
+  padding: 0 12px;
+}
+
+.content{
+  margin-top: 15px;
+ 
+}
+.font-light{
+  color: #878787;
+}
+
+.font-bold{
+  color: #6b6a6b;
+  font-weight:600;
+}
+.home-cards{
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  flex-wrap: wrap;
+}
+.single-email{
+ 
+  width: 95%;
+  margin: auto;
+
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  width: 30%;
+  
+
+}
+.right{
+  width: 65%;
+  background-color: #fffefe;
+  
+}
+
+.user-profile{
+ 
+  height: 80px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profile-icon{
+  width: 10%;
+  margin-right: 33px;
+  margin-bottom: 25px;
+}
+.subjects h4{
+  font-size: 24px;
+}
+.subjects p{
+  margin-top: 12px;
+}
+
+.message{
+  padding: 12px 45px;
+  background-color: #fffefe;
+}
+
+.btn{
+  padding: 12px 25px;
+  color: white;
+  background-color: #e34366;
+  height: 45px;
+  border-radius: 30px;
+  
+}
+
+.filter{
+ 
+  height:50px;
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.filter-btn{
+  background-color: red;
+  color: white;
+  width: 70px;
+  height: 35px;
+  border-radius: 12px;
+}
+
+.user-icons{
+  background-color: #e54064;
+  border-radius: 50%;
+  height: 50px;
+  width: 70%;
+  position: relative;
+  color: white;
+  margin-top: 15px; 
+  margin-left: 15px;
+}
+.user-icons p{
+  position: absolute;
+  left: 25px;
+  font-size: 1.2rem;
+  top: 15px;
+}
